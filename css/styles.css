@@ -30,6 +30,10 @@ a {
     font-weight: 600;
 }
 
+a:hover {
+    color: #EAF6F6;
+}
+
 hr {
     width: 5%;
     border-style: none;
@@ -49,12 +53,13 @@ hr {
 
 .top-cloud {
     position: absolute;
-    top: 50px;
-    right: 28%;
+    top: 80px;
+    right: 23%;
 }
 
 .bottom-cloud {
     position: absolute;
+    left: 25%;
 }
 
 .profile {
@@ -119,7 +124,7 @@ hr {
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     border-radius: 10px;
-    color: #FFFFFF;
+    color: #EAF6F6;
     font-size: 20px;
     font-weight: 700;
     padding: 10px 20px;
@@ -148,7 +153,8 @@ hr {
 }
 
 #pro {
-    text-decoration: underline;
+    /* text-decoration: underline; */
+    color: brown;
 }
 
 #last-para {
@@ -156,5 +162,5 @@ hr {
     margin-top: 30px;
     margin-bottom: 0;
     font-size: smaller;
-    color: white;
+    color: #EAF6F6;
 }
